@@ -11,7 +11,7 @@
             console.log('initialize');
         },
         test: function () {
-            return 'test'   ;
+            return 'test';
         }
     };
 
