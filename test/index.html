@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<meta charset="utf-8"/>
+<title>test-blanket # test</title>
+
+<link rel="shortcut icon" type="image/png" href="scripts/vendor/jasmine-favicon.png"/>
+<link rel="stylesheet" type="text/css" href="scripts/vendor/jasmine/jasmine.css"/>
+<script src="scripts/vendor/jasmine/jasmine.js"></script>
+<script src="scripts/vendor/jasmine/jasmine.html.js"></script>
+
+<!-- test files //-->
+<script src="scripts/test.app.js"></script>
+
+<!-- source files //-->
+<script src="../app/scripts/app.js"></script>
+
+<!-- bootstrap jasmine //-->
+<script>
+    (function () {
+        var jasmineEnv = jasmine.getEnv();
+        jasmineEnv.updateInterval = 250;
+
+        var htmlReporter = new jasmine.HtmlReporter();
+        jasmineEnv.addReporter(htmlReporter);
+        jasmineEnv.specFilter = function (spec) {
+            return htmlReporter.specFilter(spec);
+        };
+
+        window.onload = function () {
+            jasmineEnv.execute();
+        };
+    })();
+</script>
