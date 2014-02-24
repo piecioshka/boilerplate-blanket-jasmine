@@ -9,6 +9,9 @@
     App.prototype = {
         initialize: function () {
             console.log('initialize');
+        },
+        test: function () {
+            return 'test'   ;
         }
     };
 
