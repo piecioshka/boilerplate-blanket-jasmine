@@ -1,18 +1,16 @@
 # test-blanket
 
-Testing nice tool for get info about covered code with JavaScript.
-This tool is [blanket][0].
+Testing [blanket][0] for get percent of covered code.
 
-## Example of usage
+### Example of usage
 
-* Application: [http://piecioshka.pl/projects/test-blanket/app/][1]
-* Specs: [http://piecioshka.pl/projects/test-blanket/test/][2]
+* Application: http://piecioshka.pl/projects/test-blanket/app/
+* Specs: http://piecioshka.pl/projects/test-blanket/test/
 
-# More info
+### More info
 
 I have try to read something and catch [this][3].
 
+
 [0]: http://blanketjs.org/
-[1]: http://piecioshka.pl/projects/test-blanket/app/
-[2]: http://piecioshka.pl/projects/test-blanket/test/
 [3]: http://gregorsuttie.com/2013/03/18/code-coverage-for-your-javascript/

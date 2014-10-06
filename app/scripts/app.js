@@ -1,19 +1,21 @@
-(function (root, factory) {
-    // Browser globals
-    factory(root);
-}(this, function (exports) {
+(function (root) {
     'use strict';
 
-    function App() {}
+    function App() {
+        return this;
+    }
 
     App.prototype = {
         initialize: function () {
             console.log('initialize');
         },
+
         test: function () {
             return 'test';
         }
     };
 
-    exports.App = App;
-}));
+    // Exports `App`.
+    return (root.App = App);
+
+}(this));

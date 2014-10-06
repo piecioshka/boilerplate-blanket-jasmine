@@ -2,16 +2,16 @@
 <meta charset="utf-8"/>
 <title>test-blanket # test</title>
 
-<link rel="shortcut icon" type="image/png" href="scripts/vendor/jasmine-favicon.png"/>
-<link rel="stylesheet" type="text/css" href="scripts/vendor/jasmine/jasmine.css"/>
-<script src="scripts/vendor/jasmine/jasmine.js"></script>
-<script src="scripts/vendor/jasmine/jasmine.html.js"></script>
+<link rel="shortcut icon" type="image/png" href="vendor/jasmine-favicon.png"/>
+<link rel="stylesheet" type="text/css" href="vendor/jasmine/jasmine.css"/>
+<script src="vendor/jasmine/jasmine.js"></script>
+<script src="vendor/jasmine/jasmine.html.js"></script>
 
 <!-- for *data-cover-only* attribute you should put path to project source files //-->
-<script data-cover-only="app/scripts/"  src="scripts/vendor/blanket.js" data-cover-adapter="scripts/vendor/jasmine-blanket.js"></script>
+<script data-cover-only="app/scripts/" src="vendor/blanket/blanket.js" data-cover-adapter="vendor/blanket/jasmine-blanket.js"></script>
 
 <!-- test files //-->
-<script src="scripts/test.app.js"></script>
+<script src="specs/test.app.js"></script>
 
 <!-- source files //-->
 <script src="../app/scripts/app.js"></script>

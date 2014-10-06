@@ -1,12 +1,18 @@
 <!DOCTYPE html>
-<meta charset="utf-8"/>
-<title>test-blanket # app</title>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>test-blanket #app</title>
+</head>
+<body>
+    <script src="scripts/app.js"></script>
+    <script>
+        (function () {
+            'use strict';
 
-<!-- source files //-->
-<script src="scripts/app.js"></script>
-
-<!-- bootstrap project //-->
-<script>
-    var app = new App();
-    app.initialize();
-</script>
+            var app = new App();
+            app.initialize();
+        }());
+    </script>
+</body>
+</html>
