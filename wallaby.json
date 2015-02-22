@@ -1,0 +1,11 @@
+{
+  "files": [
+    "app/scripts/core/*.js"
+  ],
+
+  "tests": [
+    "test/unit/*.js"
+  ],
+
+  "testFramework": "jasmine@2.1.3"
+}

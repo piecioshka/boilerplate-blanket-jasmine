@@ -1,8 +1,10 @@
-(function (root) {
+define([
+
+], function () {
     'use strict';
 
     function App() {
-        return this;
+        this.initialize();
     }
 
     App.prototype = {
@@ -15,7 +17,6 @@
         }
     };
 
-    // Exports `App`.
-    return (root.App = App);
+    return App;
 
-}(this));
+});
