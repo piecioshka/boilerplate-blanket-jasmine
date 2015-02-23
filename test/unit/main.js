@@ -1,7 +1,10 @@
-(function () {
+(function (wallaby) {
     'use strict';
 
     var ENABLE_BLANKET = true;
+
+    // delaying wallaby automatic start
+    wallaby.delayStart();
 
     // Configure RequireJS to shim Jasmine
     require.config({
@@ -21,7 +24,13 @@
             blanket: { deps: ['jasmine', 'jasmine-html'], exports: 'blanket' },
             'jasmine-require-blanket': { deps: ['jasmine', 'jasmine-html', 'blanket'], exports: 'window.blanket' },
             boot: { deps: ['jasmine-html', 'jasmine-require-blanket'], exports: 'window.jasmineRequire' }
-        }
+        },
+
+        // asking require.js to load our tests
+        deps: wallaby.tests,
+
+        // starting run once require.js is done
+        callback: wallaby.start
     });
 
     // Define all of your specs here. These are RequireJS modules.
@@ -49,4 +58,16 @@
             window.onload();
         });
     });
-}());
+}(function () {
+    // Protection under crash Jasmine launched in browser.
+    if (!('wallaby' in this)) {
+        return {
+            delayStart: function () {},
+            tests: [],
+            start: function () {}
+        };
+    }
+
+    // Returns `wallaby` origin object, or our dummy.
+    return wallaby;
+}()));

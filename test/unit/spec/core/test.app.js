@@ -24,4 +24,10 @@ define([
             expect(a.initialize).toHaveBeenCalled();
         });
     });
+
+    describe('test-describe', function () {
+        it('test-it', function () {
+            expect(true).toBe(false);
+        });
+    });
 });
