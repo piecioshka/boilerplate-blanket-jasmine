@@ -4,8 +4,8 @@
 
 ## Example of usage
 
-* Application: http://piecioshka.pl/projects/test-blanket/app/
-* Specs: http://piecioshka.pl/projects/test-blanket/test/
+* Application: http://piecioshka.github.io/test-blanket-jasmine/app/
+* Specs: http://piecioshka.github.io/test-blanket-jasmine/test/unit/
 
 ## More info
 
