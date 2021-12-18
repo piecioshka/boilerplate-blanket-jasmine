@@ -1,15 +1,12 @@
 # boilerplate-blanket-jasmine
 
-> Testing [blanket][0] for get percent of covered code.
+🍴 Starter [Blanket.js](http://blanketjs.org/) for get percent of covered code.
 
-## Example of usage
+## Demo
 
-* Application: http://piecioshka.github.io/boilerplate-blanket-jasmine/app/
-* Specs: http://piecioshka.github.io/boilerplate-blanket-jasmine/test/unit/
+* http://piecioshka.github.io/boilerplate-blanket-jasmine/app/
+* http://piecioshka.github.io/boilerplate-blanket-jasmine/test/unit/
 
-## More info
+## Resources
 
-I have try to read something and catch [this][3].
-
-[0]: http://blanketjs.org/
-[3]: http://gregorsuttie.com/2013/03/18/code-coverage-for-your-javascript/
+* http://gregorsuttie.com/2013/03/18/code-coverage-for-your-javascript/
