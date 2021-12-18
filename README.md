@@ -1,11 +1,11 @@
-# test-blanket-jasmine
+# boilerplate-blanket-jasmine
 
 > Testing [blanket][0] for get percent of covered code.
 
 ## Example of usage
 
-* Application: http://piecioshka.github.io/test-blanket-jasmine/app/
-* Specs: http://piecioshka.github.io/test-blanket-jasmine/test/unit/
+* Application: http://piecioshka.github.io/boilerplate-blanket-jasmine/app/
+* Specs: http://piecioshka.github.io/boilerplate-blanket-jasmine/test/unit/
 
 ## More info
 
