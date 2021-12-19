@@ -10,3 +10,7 @@
 ## Resources
 
 * http://gregorsuttie.com/2013/03/18/code-coverage-for-your-javascript/
+
+## License
+
+[The MIT License](https://piecioshka.mit-license.org) @ 2014-2021
