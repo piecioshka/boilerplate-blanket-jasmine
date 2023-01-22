@@ -2,7 +2,7 @@
 
 🍴 Starter [Blanket.js](http://blanketjs.org/) for get percent of covered code.
 
-## Demo 🎉
+## Preview 🎉
 
 * http://piecioshka.github.io/boilerplate-blanket-jasmine/app/
 * http://piecioshka.github.io/boilerplate-blanket-jasmine/test/unit/
